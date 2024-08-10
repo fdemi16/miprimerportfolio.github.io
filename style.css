@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b0c4b1;
+  margin: 0;
+  padding: 20px;
+}
+
+#cabecera {
+  background-color: #edafb8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #4a5759;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#experiencia {
+  margin: 20px 0;
+}
+
+h2 {
+  color: #dedbd2;
+}
+
+.galeria {
+  margin: 10px 0;
+}
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.fotos img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #f7e1d7;
+}
